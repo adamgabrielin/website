@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+
+    margin-left: 6%;
+}
+
+
+nav {
+    background-color: #952AD9;
+    padding: 1%;
+    border-radius: 25px;
+    margin-bottom: 1%;
+}
+
+
+
+nav a {
+    font-size: 200%;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+img.logo {
+    float: left;
+    width: 5%;
+    margin-top: 0.85%;
+    margin-left: 3%;
+
+
+}
+
+h1 {
+    font-family: Arial;
+}
+
+/*Media queries*/
+@media (min-width: 576px) {
+    nav li {
+        display: inline;
+    }
+}
+
+
+@media (min-width: 768px) {
+    nav {
+        background-color: blue;
+    }
+}
+
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 1400px) {}
